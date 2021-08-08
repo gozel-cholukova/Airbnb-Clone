@@ -1,0 +1,11 @@
+.home > h1 {
+  padding-top: 20px;
+  padding-left: 80px;
+}
+
+.home__section {
+  display: flex;
+  padding-top: 10px;
+  padding-left: 80px;
+  padding-right: 55px;
+}
