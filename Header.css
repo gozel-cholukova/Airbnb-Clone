@@ -1,7 +1,8 @@
 .header {
   display: flex;
   align-items: center;
-  padding: -4px;
+  justify-content: space-between;
+  padding: -4px;  
   position: sticky;
   background-color: rgb(1, 22, 51);
   z-index: 100;
@@ -15,9 +16,10 @@
   justify-content: center;
   align-items: center;
   margin-top: 5px;
-  margin-left: -50px;
+  margin-left: 80px;
   object-fit: contain;
   height: 75px;
+  cursor: pointer;
 }
 
 .header_midd {
@@ -32,6 +34,7 @@
   align-items: center;
   justify-content: center;
   margin-left: -15px;
+  cursor: pointer;
 }
 
 .header_midd ul li {
@@ -51,6 +54,7 @@
   width: 15vw;
   margin-right: 10px;
   color: white;
+  cursor: pointer;
 }
 
 .header_right p {

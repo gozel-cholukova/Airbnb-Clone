@@ -4,7 +4,6 @@ import SearchIcon from '@material-ui/icons/Search';
 import { Button } from '@material-ui/core';
 import Search from './Search';
 
-
 function Header1() {
   const [showSearch, setShowSearch] = useState(false);
 
@@ -16,6 +15,7 @@ function Header1() {
         {showSearch && <Search />}
 
         <Button onClick={() => setShowSearch(!showSearch)} className='search__button' variant='outlined'>
+          {/* {showSearch ? "Hide" : "Search Dates"} */}
           <SearchIcon color="secondary"/>
         </Button>        
       </div>      
